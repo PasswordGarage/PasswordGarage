@@ -220,7 +220,6 @@
                     <input name="Email" placeholder="Enter your email" class="flex-1 px-4 py-2 rounded-lg bg-white text-gray-900" required>
                     <button class="bg-gray-900 px-6 py-2 rounded-lg hover:bg-gray-800 transition">Subscribe</button>
                 </form>
-                <span>Thankyou for subscribing!</span>
             </div>
         </div>
     </section>
@@ -262,7 +261,7 @@
                 </div>
             </div>
             <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-                <p>&copy; 2023 Password Garage. All rights reserved.</p>
+                <p>&copy; 2024 Password Garage. All rights reserved by WSAD.live</p>
             </div>
         </div>
     </footer>
@@ -292,15 +291,19 @@
     </script>
   
   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtagAcdBE3shoZD1sZ2oCgH7Qdk_FLMYNQzheVAd_JffkxkXGO3The2MiqaQedu0vwWA/exec'
-    const form = document.forms['submit-to-google-sheet']
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtagAcdBE3shoZD1sZ2oCgH7Qdk_FLMYNQzheVAd_JffkxkXGO3The2MiqaQedu0vwWA/exec';
+    const form = document.forms['submit-to-google-sheet'];
   
     form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          console.log('Success!', response);
+          // Redirect to the confirm.html page
+          window.location.href = 'confirm.html';
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
   </script>
 </body>
 </html>
