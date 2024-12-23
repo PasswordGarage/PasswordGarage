@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Garage - Secure Password Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-['Inter']">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <i class="bi bi-shield-lock-fill text-2xl text-blue-500"></i>
+                    <span class="text-xl font-bold">Password Garage</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-blue-500 transition">Features</a>
+                    <a href="#how-it-works" class="hover:text-blue-500 transition">How it Works</a>
+                    <a href="#faq" class="hover:text-blue-500 transition">FAQ</a>
+                </div>
+                <button class="bg-blue-600 px-6 py-2 rounded-lg hover:bg-blue-700 transition"> <a href="#get-started">Get Started</a> </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                Park Your Passwords Securely in Password Garage!
+            </h1>
+            <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+                Simplify your life with strong, secure, and easily accessible password management.
+            </p>
+            <button class="bg-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition animate-pulse">
+                <a href="#get-started">Get Started Free</a>
+            </button>
+            <div class="mt-12">
+                <img src="passwordgarageweb.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 bg-gray-800/50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Key Features</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <i class="bi bi-shield-check text-4xl text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">Military-grade Encryption</h3>
+                    <p class="text-gray-400">Your data is protected with advanced encryption algorithms.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <i class="bi bi-key text-4xl text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">Password Generator</h3>
+                    <p class="text-gray-400">Create strong, unique passwords with one click.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <i class="bi bi-devices text-4xl text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">Multi-device Sync</h3>
+                    <p class="text-gray-400">Access your passwords from any device, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-12">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">1</div>
+                    <h3 class="font-semibold mb-2">Create Account</h3>
+                    <p class="text-gray-400">Sign up in seconds</p>
+                </div>
+                <i class="bi bi-arrow-right hidden md:block text-2xl text-blue-500"></i>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">2</div>
+                    <h3 class="font-semibold mb-2">Save Passwords</h3>
+                    <p class="text-gray-400">Store securely</p>
+                </div>
+                <i class="bi bi-arrow-right hidden md:block text-2xl text-blue-500"></i>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">3</div>
+                    <h3 class="font-semibold mb-2">Access Anywhere</h3>
+                    <p class="text-gray-400">Use with ease</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gray-800/50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">What Our Early Users Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <p class="text-gray-400 mb-4">"Password Garage made my digital life stress-free! No more forgotten passwords."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-blue-500 rounded-full mr-3"></div>
+                        <div>
+                            <h4 class="font-semibold"></h4>
+                            <p class="text-sm text-gray-400">Early User</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <p class="text-gray-400 mb-4">"The security features give me peace of mind. Best password manager ever!"</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-blue-500 rounded-full mr-3"></div>
+                        <div>
+                            <h4 class="font-semibold">Sarah K.</h4>
+                            <p class="text-sm text-gray-400">Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <p class="text-gray-400 mb-4">"Simple, secure, and reliable. Exactly what I needed for password management."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-blue-500 rounded-full mr-3"></div>
+                        <div>
+                            <h4 class="font-semibold">James R.</h4>
+                            <p class="text-sm text-gray-400">Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <!-- <section id="pricing" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Simple Pricing</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-4">Free</h3>
+                    <p class="text-3xl font-bold mb-6">$0<span class="text-sm text-gray-400">/month</span></p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center"><i class="bi bi-check2 text-green-500 mr-2"></i>Basic password storage</li>
+                        <li class="flex items-center"><i class="bi bi-check2 text-green-500 mr-2"></i>Password generator</li>
+                        <li class="flex items-center"><i class="bi bi-check2 text-green-500 mr-2"></i>Single device</li>
+                    </ul>
+                    <button class="w-full bg-blue-600 py-2 rounded-lg hover:bg-blue-700 transition">Get Started</button>
+                </div>
+                <div class="bg-blue-600 p-6 rounded-xl transform scale-105">
+                    <h3 class="text-xl font-semibold mb-4">Pro</h3>
+                    <p class="text-3xl font-bold mb-6">$4.99<span class="text-sm text-gray-200">/month</span></p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center"><i class="bi bi-check2 text-white mr-2"></i>Unlimited storage</li>
+                        <li class="flex items-center"><i class="bi bi-check2 text-white mr-2"></i>Multi-device sync</li>
+                        <li class="flex items-center"><i class="bi bi-check2 text-white mr-2"></i>Secure sharing</li>
+                        <li class="flex items-center"><i class="bi bi-check2 text-white mr-2"></i>Priority support</li>
+                    </ul>
+                    <button class="w-full bg-white text-blue-600 py-2 rounded-lg hover:bg-gray-100 transition">Choose Pro</button>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-4">Team</h3>
+                    <p class="text-3xl font-bold mb-6">$9.99<span class="text-sm text-gray-400">/month</span></p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center"><i class="bi bi-check2 text-green-500 mr-2"></i>Everything in Pro</li>
+                        <li class="flex items-center"><i class="bi bi-check2 text-green-500 mr-2"></i>Team management</li>
+                        <li class="flex items-center"><i class="bi bi-check2 text-green-500 mr-2"></i>Admin console</li>
+                    </ul>
+                    <button class="w-full bg-blue-600 py-2 rounded-lg hover:bg-blue-700 transition">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 bg-gray-800/50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="max-w-2xl mx-auto space-y-4">
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <button class="flex justify-between items-center w-full text-left font-semibold">
+                        <span>Is my data really secure?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="hidden mt-2 text-gray-400">
+                        Yes! We use military-grade encryption and zero-knowledge architecture to ensure your data stays private and secure.
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <button class="flex justify-between items-center w-full text-left font-semibold">
+                        <span>Can I access my passwords offline?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="hidden mt-2 text-gray-400">
+                        Yes, you can access your passwords offline once they're synced to your device.
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <button class="flex justify-between items-center w-full text-left font-semibold">
+                        <span>What happens if I forget my master password?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="hidden mt-2 text-gray-400">
+                        We provide account recovery options through trusted contacts and backup methods.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id = "get-started" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="bg-blue-600 rounded-2xl p-8 md:p-12 text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+                <p class="text-gray-200 mb-6">Get the latest security tips, Password Garage updates & Early access to password garage.</p>
+                <form name="submit-to-google-sheet" class="flex flex-col md:flex-row gap-4 max-w-md mx-auto">
+                    <input name="Email" placeholder="Enter your email" class="flex-1 px-4 py-2 rounded-lg bg-white text-gray-900" required>
+                    <button class="bg-gray-900 px-6 py-2 rounded-lg hover:bg-gray-800 transition">Subscribe</button>
+                </form>
+                <span>Thankyou for subscribing!</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="bi bi-shield-lock-fill text-2xl text-blue-500"></i>
+                        <span class="text-xl font-bold">Password Garage</span>
+                    </div>
+                    <p class="text-gray-400">Secure password management for everyone.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Product</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-500">Features</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Pricing</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Security</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-500">About</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Blog</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-500">Privacy</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Terms</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2023 Password Garage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('#faq button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('bi-plus');
+                icon.classList.toggle('bi-dash');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtagAcdBE3shoZD1sZ2oCgH7Qdk_FLMYNQzheVAd_JffkxkXGO3The2MiqaQedu0vwWA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
